@@ -200,7 +200,7 @@ class MakakinoHandler(AbstractRequestHandler):
             if nombre_slot and nombre_slot.value:
                 best_match = find_medication(nombre_slot.value)
 
-                df = pd.read_csv("data/products1.csv", delimiter=';')
+                df = pd.read_csv("data/products_with_location.csv", delimiter=';')
                 var = df[df["name"] == best_match]["localizacion"]
                 localizacion = var.values
                 speak_output = f"La localización de {best_match} es {localizacion}"
