@@ -3,7 +3,7 @@ import random
 
 # Leer el archivo CSV original
 productos = []
-with open('products.csv', newline='', encoding='utf-8') as csvfile:
+with open('data/products.csv', newline='', encoding='utf-8') as csvfile:
     reader = csv.DictReader(csvfile, delimiter=';')
     for row in reader:
         productos.append(row)
@@ -17,7 +17,7 @@ for _ in range(random.randint(18,18)):
     productos_lista.append({'name': producto['name'], 'cantidad': cantidad, 'localizacion': localizacion})
 
 # Escribir la lista de productos en un nuevo archivo CSV
-with open('lista_productos_sa.csv', 'w', newline='', encoding='utf-8') as csvfile:
+with open('data/lista_productos_sa.csv', 'w', newline='', encoding='utf-8') as csvfile:
     fieldnames = ['name', 'cantidad', 'localizacion']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()

@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Leer el archivo CSV
-df = pd.read_csv('products.csv', sep=';')
+df = pd.read_csv('data/products.csv', sep=';')
 
 # Función para obtener la parte antes del primer número y la parte después
 def partir_nombre(nombre):
@@ -18,4 +18,4 @@ def partir_nombre(nombre):
 df['name_med'], df['cantidad'] = zip(*df['name'].apply(partir_nombre))
 
 # Guardar el DataFrame resultante en un nuevo archivo CSV
-df.to_csv('medicaments.csv', index=False)
+df.to_csv('data/formatted_products.csv', index=False)

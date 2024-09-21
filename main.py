@@ -7,7 +7,7 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 from google.cloud import speech_v1p1beta1 as speech
 
-archivo_csv = 'products.csv'
+archivo_csv = 'data/products.csv'
 medications = []
 
 def limpiar_nombre(nombre):
