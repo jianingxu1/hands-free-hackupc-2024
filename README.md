@@ -32,10 +32,10 @@ The main source code is located in the `lambda_function.py` file, which contains
 
 ## Contributors
 
-- [Team Member](https://github.com/jianingxu1)
-- [Team Member](https://github.com/jordimunozflorensa)
-- [Team Member](https://github.com/yiqizhengshan)
-- [Team Member](https://github.com/Farrius)
+- [jianingxu1](https://github.com/jianingxu1)
+- [jordimunozflorensa](https://github.com/jordimunozflorensa)
+- [yiqizhengshan](https://github.com/yiqizhengshan)
+- [Farrius](https://github.com/Farrius)
 
 ## License
 
