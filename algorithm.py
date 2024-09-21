@@ -1,6 +1,6 @@
 import pandas as pd
-from tsp import obtener_nombres_camino as tonc
-from sa import obtener_nombres_camino as sonc
+from services.tsp import obtener_nombres_camino as tonc
+from services.sa import obtener_nombres_camino as sonc
 
 def decidir_alg(nombre_csv):
     df = pd.read_csv(nombre_csv)
