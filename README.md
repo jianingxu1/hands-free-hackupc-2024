@@ -2,7 +2,7 @@
 
 **Hands-Free** is an Alexa Skill designed to assist warehouse workers by enabling hands-free management of essential tasks such as creating order lists and locating products. Through voice commands, users can interact seamlessly with the system, allowing for greater convenience and efficiency in warehouse operations.
 
-> **🏆 HackUPC 2024 Winner**: We were thrilled to win the Seidor Challenge at **HackUPC 2024** with this project. Our solution was recognized for its innovative approach to optimizing warehouse operations through voice-driven AI, which minimizes the need for physical input.
+> **🏆 HackUPC 2024 Winner**: We were thrilled to win the Seidor Challenge at **HackUPC 2024** with this project. Our solution was recognized for its innovative approach to optimizing warehouse operations through voice-driven AI, which minimizes the need for physical input. Check out our project on [Devpost](https://devpost.com/software/hands-free-9bfc2l).
 
 ## Features
 
