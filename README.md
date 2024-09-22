@@ -13,7 +13,7 @@
 
 ## Project Overview
 
-The main source code is located in the `lambda_function.py` file, which contains the core logic for the Alexa Skill, including the interaction between the user and the Alexa interface. Other key components of the project are organized into the following directories:
+The main source code is located in the `lambda_function.py` file, which contains the core logic for the Alexa Skill, including the interaction between the user and the Alexa interface. Other key components of the project are organized into directories such as data, services, and utils.
 
 ### How We Built It
 
